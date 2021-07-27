@@ -1,0 +1,106 @@
+@media screen and (min-width:1600px) and (max-width:1800px) {
+	
+}
+@media screen and (min-width:1440px) and (max-width:1599px) {
+	
+}
+@media screen and (min-width:1366px) and (max-width:1439px) {
+	
+}
+@media screen and (min-width:1280px) and (max-width:1365px) {
+	
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+
+}
+@media screen and (min-width:781px) and (max-width:1023px) { 
+	
+}
+@media screen and (min-width:300px) and (max-width:1279px) {
+	.swiper-button-prev{left:auto;right:10px;}
+	.swiper-button-next{right:auto;left:10px;}
+	.week-button-prev{left:auto;right:0px;}
+	.week-button-next{right:auto;left:0px;}
+}
+@media screen and (min-width:300px) and (max-width:780px) {
+	.wsmain{right:auto;left:-250px}
+	.wsoffcanvasopener .wsmain {left:0;right:auto;}
+	.animated-arrow {
+    left:0px;
+    right:auto;
+    margin:15px 0px 0 15px;}
+	.animated-arrow span, .animated-arrow span:before, .animated-arrow span:after{left:0}
+	.left-contents h3, .left-contents p {text-align:right;}
+	.left-contents h3{font-size:15px}
+	.left-contents p{line-height:15px}
+	.lifestyle{margin:5px 5px 0 0}
+	.right-header{padding-right:0px;margin-left:55px}
+	.login-register a{font-size:9px}
+	.login-register a:first-child{width:75px;line-height: 11px;}
+	.slideshow-contents p{font-size:7px;line-height:8px}
+	.package-btns .button{font-size:12px;margin:10px 5px}
+	.package-btns .button{padding:7px 20px}
+	.package-thumb{padding-bottom:10px}
+	.section-copyrights p{font-size:13px;}
+	.section-copyrights{padding-top:5px;padding-bottom:5px;}
+	.section-copyrights p:first-child{padding-bottom:0}
+	.wsmenu > .wsmenu-list > li > a{padding:9px 12px 9px 32px;text-align:right;float:right}
+	.wsmenu-click{margin: 0 0 0px 10px;}
+	.wsmenu-click i{float:left}
+	.sel-pack-list.unstyled li label h4{font-size:14px}
+	.h4, h4 {font-size:1rem;}
+	.discount-input{margin-left:0px;margin-right:85px;}
+	.discount-input .button{font-size:8px;padding:8px 15px 10px 15px }
+	.discount-input .form-control{padding-left:100px}
+	.new-address-model{text-align:right;}
+	.days-ul.unstyled li label{font-size:11px;}
+	.food-div table tr td strong{right:auto;left:-42%;line-height:28px;font-size:16px; }
+	.food-div ul li p,.package-thumb p,.day-title h2{text-align: center}
+	.account-ul li a{font-size:13px}
+}
+@media screen and (min-width:576px) and (max-width:780px) {
+	
+}
+@media screen and (min-width:768px) and (max-width:780px) {
+	 
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+	 
+}
+@media screen and (min-width:641px) and (max-width:767px) {
+	 
+}
+@media screen and (min-width:300px) and (max-width:640px) {
+	 
+}
+@media screen and (min-width:300px) and (max-width:575px) {
+	 .food-div table tr td p{font-size:15px;}
+	.daily-calorie p{font-size:14px;line-height:18px;}
+	.swiper-button-next{right:auto;left:0px;}
+	.swiper-button-prev{left:auto;right:10px;}
+}
+	
+@media screen and (orientation: portrait) and (min-width:300px) and (max-width:780px){
+	
+} 
+@media screen and (orientation: landscape) and (min-width:480px) and (max-width:780px){
+	
+}
+@media screen and (min-width:480px) and (max-width:575px) { 
+}
+@media screen and (min-width:300px) and (max-width:479px) { 
+	
+}
+
+@media screen and (min-width:412px) and (max-width:480px) {
+	 
+}
+@media screen and (min-width:375px) and (max-width:411px) {
+	
+}
+@media screen and (min-width:360px) and (max-width:375px) {
+	
+}
+@media screen and (min-width:300px) and (max-width:359px) {
+	
+} 

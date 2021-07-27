@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document*/
+body{font-size:15px}
+*,body,ul, ol, li, pre, form, blockquote, fieldset, input, p, select, label, button, textarea, section, a,h1, h2, h3, h4, h5, h6,.button, .button-line,.left-contents h3,.foot-right p, .section-copyrights p,.forgot-reg span,.form-control{font-family: 'Cairo', sans-serif;}
+body,.popup-hidden{direction:rtl}
+h1, h2, h3, h4, h5, h6{font-weight:700 }
+.lifestyle,.navigation,.search-main, .favourite-div, .account-navi, .cart-div, .language-link, .language-div, .menu-div,.username-password .form-control,.insta-links li,.days-ul.unstyled li, .sel-pack-list li div p,.profiledata .form-group label,.discount-lbl,.inner-img,.menu-meals .unstyled li,.calories-add div:first-child,.edit-completed-dead .h-title, .edit-completed-dead .total-calories,.c-grid-title{float:right}
+.right-header,.login-register,.calories-add div:last-child,.edit-completed-dead .status-edit{float:left}
+.wsmenu-click{margin:0 10px 0 0px }
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{/*display: none*/}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after,.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{content:''}
+.banner-main .slideshow-button-prev,.banner-main .slideshow-button-next{ }
+.banner-main .slideshow-button-prev{right:0px;left:auto;border-radius:5px 5px 0 0 }
+.banner-main .slideshow-button-next{right:auto;left:0px;border-radius:0 0 5px 5px}
+.swiper-button-next::after{transform:rotate(45deg);}
+.swiper-button-prev::after{transform:rotate(-135deg);}
+.slideshow-contents .row{direction: ltr}
+.fancybox-slide--html .fancybox-close-small{left:0;right:auto}
+select.form-control{border:1px solid #ced4da;background:#fff url("../images/down-arrow.png") left center no-repeat;padding-right:25px}
+.black-bg select.form-control {
+    background: rgba(0,0,0,.05) url(../images/down-arrow-white.png) left center no-repeat;
+}
+.black-bg select.form-control:hover,.black-bg select.form-control:focus{border:1px solid rgba(255,255,255,.5);background:rgba(255,255,255,.1) url("../images/down-arrow-white.png") left center no-repeat;}
+.popup-hidden h2,.popup-hidden p,.form-group,.left-contents h3,.left-contents p,footer h4, footer p,.foot-links li a,.why-choose-us-text h2, .why-choose-us-text p, .why-choose-us-text h3,.why-choose-us-text,.slideshow-contents h1,.slideshow-contents p,.knowmore-btn,.starting-div .address-sub-div h3,.profiledata .form-group p,.profiledata .form-group label,.discount-lbl,.unstyled,.innerpages p,.menu-meals .unstyled li label div,.food-table tr p, .food-table tr h5,.table td, .table th,.dashboard-ul li a,.change-div,.faq-link,.innerpages h2,.innerpages h4{text-align:right}
+.forgot-link {margin-left:0px;margin-right:20px;}
+.forgot-div{padding:0 0px 0 160px }
+.forgot-div .button, .black-bg .forgot-div .button-line{left:0;right:auto}
+.black-bg .forgot-div .form-control {
+    border-radius: 0px 25px 25px 0px;}
+.black-bg .forgot-div .button-line{border-radius:25px 0px 0px 25px;font-size:16px;}
+.forgot-reg{display:block}
+.packages-menu li .package-menu-wrapper a{padding:15px 15px 15px 5px}
+.left-icon{margin-right:0px;margin-left:15px}
+.newsletter-sub .button{left:0;right:auto}
+.package-btns{margin:15px 5px 0 5px;}
+.package-btns .button{margin:5px 0px 5px 0;padding:10px 30px;font-size:15px}
+.package-btns .button:first-child{margin:0 0 0 10px}
+.slideshow-contents h1{font-size:2.2rem}
+.h2, h2{font-size:1.5rem;}
+.foot-links li a {font-size:17px;padding:10px 0}
+.login-register a{font-size:14px;padding:7px 15px 7px 15px;}
+.week-button-prev{right:0;left:auto;}
+.week-button-next{right:auto;left:0;}
+.week-button-next::after{top:42%;left:42%;}
+.week-button-prev::after{top:38%;}
+.days-ul.unstyled li:first-child .styled-checkbox + label:before, .days-ul.unstyled li:first-child .styled-checkbox + label:after {
+    border-radius:0 10px 10px 0;
+}
+.days-ul.unstyled li:last-child .styled-checkbox + label:before, .days-ul.unstyled li:last-child .styled-checkbox + label:after {
+    border-radius:10px 0 0 10px;
+}
+.h3, h3 {
+    font-size:1.45rem;
+}
+.sel-pack-list.unstyled li div h4 span:first-child{margin-right:0px;margin-left:20px}
+.sel-pack-list.unstyled li div h4 span:first-child::after{right:auto;left:-11px}
+.starting-div .days-ul.unstyled li:first-child .styled-checkbox + label:before, .days-ul.unstyled li:first-child .styled-checkbox + label:after {
+    border-radius: 0 5px 5px 0 ;
+}.starting-div .days-ul.unstyled li:last-child .styled-checkbox + label:before, .days-ul.unstyled li:last-child .styled-checkbox + label:after {
+    border-radius:5px 0 0 5px;
+}
+.starting-div .address-sub-div h3 .button{right:auto;left:0}
+.profiledata .form-group p{margin-left:0px;margin-right:125px}
+.profiledata .form-group label::after{right:auto;left:0}
+.discount-input .button{right:auto;left:0}
+.discount-input .form-control{padding-right:.75rem;padding-left:150px}
+.discount-input{margin-left:0px;margin-right:160px;}
+.discount-lbl img{margin-right:0px;margin-left:5px}
+.starting-box h4 span{padding:5px 5px 10px 5px}
+.unstyled li{margin-right:0px;margin-left:25px}
+.styled-checkbox + label:before{margin-right:1px;margin-left:10px}
+.styled-checkbox:checked + label:after{left:auto;right:8px;top:2px}
+.inner-img{margin:0 0px 10px 35px}
+.menu-meals .unstyled li label div{margin-left:0px;margin-right:10px;}
+.padding-left-right .button{margin-right:15px}
+.package-thumb .styled-checkbox + label:before, .package-thumb .styled-checkbox + label:after{left:auto;right:0;top:0}
+.edit-completed-dead .total-calories{margin-left:0px;margin-right:10%}
+.food-div table tr td p,.notselected, .selectedmeal,.starting-box h4,.days-ul.unstyled li h2,.days-ul.unstyled li p{text-align:center!important}
+.food-div table tr td strong{right:auto;left:-59%;padding-top: 0px;}
+.food-div ul li + li {
+    margin-right:30px;margin-left:0px
+}
+.food-div ul li a{padding:15px 15px 15px 25px;text-align:right}
+.food-div ul li p{padding-left:0px;padding-right:10px}
+.info-zoom-btn a.infoBtn{line-height:33px}
+.faq-link::after{right:auto;left:20px;}
+.food-icon-count span{margin-left:0px;margin-right:-13%}
+.food-div table tr td + td{border-left:0px solid #ccc;border-right:1px solid #ccc;}
+.week1-button-prev, .week2-button-prev{left:auto;right:0px;}
+.week1-button-next, .week2-button-next {
+    right:auto;left:0px;
+}
+.package-thumb p{padding:0 15px}
+.info-zoom-btn a{padding-top:0}
